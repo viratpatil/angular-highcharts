@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <chart [options]="columnOptions"  (selection)="onChartSelection($event)"></chart>
+  <chart [options]="lineOptions"   (selection)="onChartSelection($event)"></chart>
+  <p>selection from <b>{{from}}</b> to <b>{{to}}</b></p>
+
+</div>
+
+
